@@ -155,7 +155,6 @@ $wgExtensionCredits['other'][] = array(
 	'name'           => 'WikiShare',
 	'version'        => 'Alpha 0.1a20150624',
 	'author'         => '[https://www.mediawiki.org/wiki/User:Varnent Gregory Varnum]',
-	'description'    => 'Adds customizable social media share links to wiki pages and sidebar.',
 	'descriptionmsg' => 'wikishare-desc',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:WikiShare',
 );
