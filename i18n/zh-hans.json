@@ -1,9 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"Liuxinyu970226"
-		]
-	},
-	"wikishare-share": "分享",
-	"wikishare-desc": "添加定制社交媒体分享链接到侧边栏，并在页眉处显示工具栏，可在任何地方通过插入<nowiki><wikishare /></nowiki>标签来复制"
-}

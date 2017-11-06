@@ -1,9 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"Metalhead64"
-		]
-	},
-	"wikishare-share": "Teilen",
-	"wikishare-desc": "Ergänzt anpassbare Teilen-Links für soziale Medien auf der Seitenleiste und zeigt im Kopfbereich von Seiten eine Werkzeugleiste an, die überall durch das Einfügen des Tags <nowiki><wikishare /></nowiki> reproduziert werden kann."
-}
