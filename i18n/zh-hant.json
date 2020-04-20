@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kly",
 			"烈羽"
 		]
 	},
-	"wikishare-share": "分享"
+	"wikishare-share": "分享",
+	"wikishare-desc": "透過插入 <nowiki><wikishare /></nowiki> 標籤來添加可客製化的社群媒體分享連結到側邊欄，並在頁面標頭顯示可在任何位置複製的工具列"
 }
