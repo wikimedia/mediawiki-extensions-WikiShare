@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"[https://www.mediawiki.org/wiki/User:Varnent Gregory Varnum]"
 		]
 	},
-	"wikishare-share": "Link text\n{{Identical|Share}}",
+	"wikishare": "Used for sharing sidebar header and toolbar prefix.\n{{Identical|Share}}",
+	"wikishare-follow": "Used for follow us sidebar header.",
 	"wikishare-desc": "{{desc|name=WikiShare|url=https://www.mediawiki.org/wiki/Extension:WikiShare}}"
 }
