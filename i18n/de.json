@@ -4,6 +4,7 @@
 			"Metalhead64"
 		]
 	},
-	"wikishare-share": "Teilen",
-	"wikishare-desc": "Ergänzt anpassbare Teilen-Links für soziale Medien auf der Seitenleiste und zeigt im Kopfbereich von Seiten eine Werkzeugleiste an, die überall durch das Einfügen des Tags <nowiki><wikishare /></nowiki> reproduziert werden kann."
+	"wikishare": "Teilen",
+	"wikishare-follow": "Folge uns",
+	"wikishare-desc": "Fügt Links zur gemeinsamen Nutzung von Social-Media-Diensten in die Seitenleiste ein und zeigt eine Symbolleiste in den Seitenkopfzeilen an, die überall durch Einfügen des Tags <nowiki><wikishare /></nowiki> reproduziert werden kann"
 }
