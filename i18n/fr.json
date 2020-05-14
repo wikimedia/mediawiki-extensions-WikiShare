@@ -5,5 +5,6 @@
 		]
 	},
 	"wikishare": "Partager",
-	"wikishare-desc": "Ajoute des liens de partage de média sociaux personnalisables à la barre latérale et affiche une barre d’outil dans les entêtes de la page, qui peut être reproduite n’importe où en insérant la balise <nowiki><wikishare /></nowiki>"
+	"wikishare-follow": "Nous suivre",
+	"wikishare-desc": "Ajoute des liens de partage pour les services de média sociaux à la barre latérale et affiche une barre d’outil dans les entêtes de la page, qui peut être reproduite n’importe où en insérant la balise <nowiki><wikishare /></nowiki>"
 }

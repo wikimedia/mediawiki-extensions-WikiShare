@@ -5,5 +5,6 @@
 		]
 	},
 	"wikishare": "Udostępnij",
-	"wikishare-follow": "Obserwuj nas"
+	"wikishare-follow": "Obserwuj nas",
+	"wikishare-desc": "Dodaje linki do mediów społecznościowych na pasku bocznym i wyświetla pasek narzędzi na nagłówkach stron, które mogły zostać odtworzone w dowolnym miejscu przez wstawienie znacznika <nowiki><wikishare /></nowiki>"
 }
