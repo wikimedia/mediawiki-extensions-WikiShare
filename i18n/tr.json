@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"BaRaN6161 TURK",
 			"Hedda"
 		]
 	},
 	"wikishare": "Paylaş",
-	"wikishare-desc": "Kenar çubuğuna özelleştirilebilir sosyal medya paylaşım bağlantıları ekler ve sayfa başlıklarında <nowiki><wikishare /></nowiki> etiketi ekleyerek her yerde yeniden oluşturulabilen bir araç çubuğu görüntüler"
+	"wikishare-follow": "Bizi takip et",
+	"wikishare-desc": "Kenar çubuğuna sosyal medya hizmetleri için paylaşım bağlantıları ekler ve sayfa üstbilgilerinde <nowiki><wikishare /></nowiki> etiketi eklenerek herhangi bir yerde çoğaltılabilen bir araç çubuğu görüntüler"
 }
