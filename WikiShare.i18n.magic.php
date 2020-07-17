@@ -2,8 +2,7 @@
 
 $magicWords = [];
 
-/** English
- */
+/** English (English) */
 $magicWords['en'] = [
    'wikishareserv' => [ 0, 'wikishareserv' ],
 ];

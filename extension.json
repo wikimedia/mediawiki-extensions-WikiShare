@@ -9,7 +9,7 @@
 	"license-name": "GPL-2.0-only",
 	"type": "other",
 	"ExtensionMessagesFiles": {
-		"WikiShareMagic": "WikiShare.i18n.php"
+		"WikiShareMagic": "WikiShare.i18n.magic.php"
 	},
 	"requires": {
 		"MediaWiki": ">= 1.29.0"
