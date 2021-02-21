@@ -51,13 +51,13 @@
 			"value": {
 				"facebook": {
 					"service": "Facebook",
-					"url" : "https://www.facebook.com/sharer.php?u=%url%&t=%title% - %wiki%",
-					"icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/40px-Facebook_f_logo_%282019%29.svg.png"
+					"url": "https://www.facebook.com/sharer.php?u=%url%&t=%title% - %wiki%",
+					"icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/40px-Facebook_f_logo_%282019%29.svg.png"
 				},
 				"twitter": {
 					"service": "Twitter",
-					"url" : "https://twitter.com/intent/tweet?text=Look%20what%20I%20found%20on%20%wiki%:%20%url%",
-					"icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Twitter_Logo.png/40px-Twitter_Logo.png"
+					"url": "https://twitter.com/intent/tweet?text=Look%20what%20I%20found%20on%20%wiki%:%20%url%",
+					"icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Twitter_Logo.png/40px-Twitter_Logo.png"
 				}
 			}
 		},
@@ -65,13 +65,13 @@
 			"value": {
 				"facebook": {
 					"service": "Facebook",
-					"url" : "",
-					"icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/40px-Facebook_f_logo_%282019%29.svg.png"
+					"url": "",
+					"icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/40px-Facebook_f_logo_%282019%29.svg.png"
 				},
 				"twitter": {
 					"service": "Twitter",
-					"url" : "",
-					"icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Twitter_Logo.png/40px-Twitter_Logo.png"
+					"url": "",
+					"icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Twitter_Logo.png/40px-Twitter_Logo.png"
 				}
 			}
 		}
