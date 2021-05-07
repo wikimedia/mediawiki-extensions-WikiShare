@@ -159,6 +159,8 @@ class WikiShare {
 		} else if ( $wgOut->canUseWikiPage() ) {
 			$wikiPage = $wgOut->getWikiPage();
 			$pout = $wikiPage->getParserOutput( $wikiPage->makeParserOptions( 'canonical' ) );
+		} else {
+			$pout = null;
 		}
 
 		$html = '';
