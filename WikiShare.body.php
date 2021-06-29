@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * Class file for the WikiShare extension
  *
@@ -156,8 +158,8 @@ class WikiShare {
 
 		if ( $parser ) {
 			$pout = $parser->getOutput();
-		} else if ( $wgOut->canUseWikiPage() ) {
-			$wikiPage = $wgOut->getWikiPage();
+		} elseif ( $wgOut->getTitle() !== null && $wgOut->getTitle()->canExist() ) {
+			$wikiPage = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $wgOut->getTitle() );
 			$pout = $wikiPage->getParserOutput( $wikiPage->makeParserOptions( 'canonical' ) );
 		} else {
 			$pout = null;
@@ -170,14 +172,14 @@ class WikiShare {
 		if ( !$twitter ) {
 		  $twitter = $wgOut->getPageTitle();
 		}
-		if ( $wgOut->canUseWikiPage() ) {
+		if ( $wgOut->getTitle() !== null && $wgOut->getTitle()->canExist() ) {
 			foreach ( $links as $link ) {
 				$attribs = $link['attribs'] ?? '';
 				$pageurl = $wgOut->getTitle()->getFullURL();
-				$servurl = str_replace("%url%", $pageurl, $link['url']);
-				$servurl = str_replace("%title%", $title, $servurl);
-				$servurl = str_replace("%twitter%", $twitter, $servurl);
-				$servurl = str_replace("%wiki%", $wgSitename, $servurl);
+				$servurl = str_replace( "%url%", $pageurl, $link['url'] );
+				$servurl = str_replace( "%title%", $title, $servurl );
+				$servurl = str_replace( "%twitter%", $twitter, $servurl );
+				$servurl = str_replace( "%wiki%", $wgSitename, $servurl );
 
 				$html .= '<span title="Share on ' . $link['service'] . '"><a class="wikishare_button_' . $link['service'] . '" ' . $attribs . ' href="' . $servurl . '" target="_blank"><img class="wikishare_icon" src="' . $link['icon'] . '" width="20px"></a></span>';
 			}
