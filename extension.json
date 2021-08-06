@@ -12,7 +12,7 @@
 		"WikiShareMagic": "WikiShare.i18n.magic.php"
 	},
 	"requires": {
-		"MediaWiki": ">= 1.29.0"
+		"MediaWiki": ">= 1.35.0"
 	},
 	"MessagesDirs": {
 		"WikiShare": [
