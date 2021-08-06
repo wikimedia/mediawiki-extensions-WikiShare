@@ -28,8 +28,8 @@
 		}
 	},
 	"ResourceFileModulePaths": {
-		"localBasePath": "",
-		"remoteExtPath": "WikiShare"
+		"localBasePath": "resources",
+		"remoteExtPath": "WikiShare/resources"
 	},
 	"Hooks": {
 		"ArticleViewHeader": "WikiShare::WikiShareHeader",
