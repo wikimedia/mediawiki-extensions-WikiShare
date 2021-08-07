@@ -20,7 +20,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"WikiShare": "WikiShare.body.php"
+		"WikiShare": "src/WikiShare.php"
 	},
 	"ResourceModules": {
 		"ext.WikiShare": {

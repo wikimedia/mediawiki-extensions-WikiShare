@@ -24,6 +24,7 @@ class WikiShare {
 	 * Add properties to the page based on the parser function details.
 	 *
 	 * @param Parser $parser
+	 * @param string $twitter
 	 * @return string
 	 */
 	public static function doParserFunction( Parser $parser, $twitter = '' ) {
@@ -34,6 +35,8 @@ class WikiShare {
 	/**
 	 * Parser hook for the <wikishare /> tag extension.
 	 *
+	 * @param string $input
+	 * @param array $args
 	 * @param Parser $parser
 	 * @return string
 	 */
@@ -151,6 +154,7 @@ class WikiShare {
 	 * Converts an array definition of links into HTML tags
 	 *
 	 * @param array $links
+	 * @param Parser|null $parser
 	 * @return string
 	 */
 	protected static function makeLinks( $links, $parser = null ) {
@@ -181,6 +185,7 @@ class WikiShare {
 				$servurl = str_replace( "%twitter%", $twitter, $servurl );
 				$servurl = str_replace( "%wiki%", $wgSitename, $servurl );
 
+				// phpcs:ignore Generic.Files.LineLength.TooLong
 				$html .= '<span title="Share on ' . $link['service'] . '"><a class="wikishare_button_' . $link['service'] . '" ' . $attribs . ' href="' . $servurl . '" target="_blank"><img class="wikishare_icon" src="' . $link['icon'] . '" width="20px"></a></span>';
 			}
 		}
