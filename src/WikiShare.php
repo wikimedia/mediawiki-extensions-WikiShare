@@ -68,9 +68,10 @@ class WikiShare {
 	public static function WikiShareHeader( &$article, &$outputDone, &$pcache ) {
 		global $wgOut, $wgWikiShare, $wgWikiShareServices;
 
+		$namespaceInfo = MediaWikiServices::getInstance()->getNamespaceInfo();
 		# Check if page is in content namespace and the setting to enable/disable
 		# article header tooblar either on the main page or at all
-		if ( !MWNamespace::isContent( $article->getTitle()->getNamespace() )
+		if ( !$namespaceInfo->isContent( $article->getTitle()->getNamespace() )
 			|| !$wgWikiShare['header']
 			|| ( $article->getTitle()->equals( Title::newMainPage() ) && !$wgWikiShare['main'] )
 		) {
