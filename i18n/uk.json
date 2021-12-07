@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Movses",
-			"Piramidion"
+			"Piramidion",
+			"DDPAT"
 		]
 	},
 	"wikishare": "Поділитися",
+	"wikishare-follow": "Слідуй за нами",
 	"wikishare-desc": "Додає на бічну панель посилання для поширення в соцмережах, і показує панель у заголовках сторінок. Щоб викликати цю панель посилань можна скористатись тегом <nowiki><wikishare /></nowiki>"
 }
