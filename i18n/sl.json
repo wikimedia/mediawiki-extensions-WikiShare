@@ -4,5 +4,7 @@
 			"Eleassar"
 		]
 	},
-	"wikishare": "Deli"
+	"wikishare": "Deli",
+	"wikishare-follow": "Sledi nam",
+	"wikishare-desc": "Doda [http://www.addthis.com gradnik AddThis] v stransko letvico in prikaže orodno vrstico v glavi strani, kar je z vstavitvijo značke <nowiki><addthis /></nowiki> mogoče ponoviti kjer koli"
 }
