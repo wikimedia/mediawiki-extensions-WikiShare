@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Indus Asia"
+			"Indus Asia",
+			"Mehtab ahmed"
 		]
 	},
-	"wikishare": "ونڊيو"
+	"wikishare": "ونڊيو",
+	"wikishare-follow": "اسان جي پوئواري ڪريو",
+	"wikishare-desc": "سائڊبار ۾ سوشل ميڊيا سروسز لاءِ شيئرنگ لنڪس شامل ڪري ٿو ۽ صفحي جي هيڊرز تي ٽول بار ڏيکاري ٿو جيڪو داخل ڪري ڪٿي بہ ٻيھر پيدا ڪري سگهجي ٿو<nowiki><wikishare /></nowiki> ٽيگ"
 }
