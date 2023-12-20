@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mainframe98"
+			"Mainframe98",
+			"McDutchie"
 		]
 	},
-	"wikishare": "Delen"
+	"wikishare": "Delen",
+	"wikishare-follow": "Volg ons",
+	"wikishare-desc": "Voegt koppelingen voor delen via sociale-mediadiensten toe aan de zijbalk en geeft bovenaan pagina’s een werkbalk weer die overal kan worden gereproduceerd middels de tag <nowiki><wikishare /></nowiki>."
 }
