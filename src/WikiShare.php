@@ -175,7 +175,7 @@ class WikiShare {
 		$title = $wgOut->getPageTitle();
 		$twitter = $pout ? $pout->getExtensionData( 'wikishareserv:twitter' ) : null;
 		if ( !$twitter ) {
-		  $twitter = $wgOut->getPageTitle();
+			$twitter = $wgOut->getPageTitle();
 		}
 		if ( $wgOut->getTitle() !== null && $wgOut->getTitle()->canExist() ) {
 			foreach ( $links as $link ) {
