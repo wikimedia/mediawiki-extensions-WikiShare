@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Banjo"
+			"Banjo",
+			"Toliño"
 		]
 	},
-	"wikishare": "Compartir"
+	"wikishare": "Compartir",
+	"wikishare-follow": "Síguenos",
+	"wikishare-desc": "Engade ligazóns para compartir en servizos de redes sociais á barra lateral e mostra unha barra de ferramentas nas cabeceiras das páxinas que se pode reproducir en calquera lugar inserindo a etiqueta <nowiki><wikishare /></nowiki>"
 }
