@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Stefan2255",
 			"WikiPhoenix"
 		]
 	},
 	"wikishare": "Dela",
-	"wikishare-follow": "Följ oss"
+	"wikishare-follow": "Följ oss",
+	"wikishare-desc": "Lägger till delningslänkar för sociala medietjänster i sidofältet och visar ett verktygsfält på sidhuvuden som kan reproduceras var som helst genom att infoga<nowiki><wikishare /></nowiki> märka"
 }
